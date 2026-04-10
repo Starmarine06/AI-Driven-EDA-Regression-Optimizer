@@ -107,4 +107,4 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 ## License
 
-This project is open-source. Please check the license file for details.
+This project is open-source.
