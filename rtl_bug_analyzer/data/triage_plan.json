@@ -1,0 +1,94 @@
+{
+  "total_bugs": 9,
+  "critical_count": 1,
+  "high_count": 2,
+  "medium_count": 5,
+  "low_count": 1,
+  "estimated_fix_time": {
+    "total_hours": 84,
+    "total_days": 10,
+    "total_weeks": 2
+  },
+  "triage_by_priority": {
+    "CRITICAL": [
+      {
+        "signature_id": 4,
+        "failure_type": "data_corruption",
+        "module": "Memory_Controller",
+        "occurrence_count": 2,
+        "complexity": "Very High",
+        "estimated_hours": 16
+      }
+    ],
+    "HIGH": [
+      {
+        "signature_id": 3,
+        "failure_type": "clock_issue",
+        "module": "Clock_Domain",
+        "occurrence_count": 1,
+        "complexity": "High",
+        "estimated_hours": 8
+      },
+      {
+        "signature_id": 6,
+        "failure_type": "deadlock",
+        "module": "Interconnect",
+        "occurrence_count": 2,
+        "complexity": "Very High",
+        "estimated_hours": 16
+      }
+    ],
+    "MEDIUM": [
+      {
+        "signature_id": 1,
+        "failure_type": "assertion_failure",
+        "module": "AHB_Controller",
+        "occurrence_count": 2,
+        "complexity": "Medium",
+        "estimated_hours": 4
+      },
+      {
+        "signature_id": 2,
+        "failure_type": "cache_error",
+        "module": "Cache_L1",
+        "occurrence_count": 2,
+        "complexity": "High",
+        "estimated_hours": 8
+      },
+      {
+        "signature_id": 9,
+        "failure_type": "unknown",
+        "module": "Data_Path",
+        "occurrence_count": 1,
+        "complexity": "Medium",
+        "estimated_hours": 4
+      },
+      {
+        "signature_id": 8,
+        "failure_type": "timeout",
+        "module": "Control_Unit",
+        "occurrence_count": 1,
+        "complexity": "Medium",
+        "estimated_hours": 4
+      },
+      {
+        "signature_id": 5,
+        "failure_type": "data_corruption",
+        "module": "Register_File",
+        "occurrence_count": 1,
+        "complexity": "Very High",
+        "estimated_hours": 16
+      }
+    ],
+    "LOW": [
+      {
+        "signature_id": 7,
+        "failure_type": "illegal_state",
+        "module": "ALU",
+        "occurrence_count": 2,
+        "complexity": "High",
+        "estimated_hours": 8
+      }
+    ]
+  }
+}

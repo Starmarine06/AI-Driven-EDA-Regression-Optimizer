@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-03-07T11:48:59.750779",
+  "training_samples": 4000,
+  "test_samples": 1000,
+  "roc_auc_score": 0.9117404871283696,
+  "f1_score": 0.9134045077105575,
+  "model_type": "XGBClassifier",
+  "n_estimators": 100,
+  "max_depth": 6,
+  "feature_cols": [
+    "author_experience_years",
+    "files_modified",
+    "lines_added",
+    "lines_deleted",
+    "modules_affected_count",
+    "code_churn_ratio",
+    "is_hotspot_module",
+    "historical_bug_frequency",
+    "regression_time_hours",
+    "has_critical_module",
+    "code_churn_normalized",
+    "bug_density",
+    "risk_score"
+  ],
+  "feature_importance": [
+    {
+      "feature": "historical_bug_frequency",
+      "importance": 0.4260965585708618
+    },
+    {
+      "feature": "modules_affected_count",
+      "importance": 0.1641610860824585
+    },
+    {
+      "feature": "is_hotspot_module",
+      "importance": 0.0910475105047226
+    },
+    {
+      "feature": "risk_score",
+      "importance": 0.038260769098997116
+    },
+    {
+      "feature": "regression_time_hours",
+      "importance": 0.0327291414141655
+    },
+    {
+      "feature": "bug_density",
+      "importance": 0.03255682438611984
+    },
+    {
+      "feature": "author_experience_years",
+      "importance": 0.03217872977256775
+    },
+    {
+      "feature": "lines_added",
+      "importance": 0.032143138349056244
+    },
+    {
+      "feature": "has_critical_module",
+      "importance": 0.031856290996074677
+    },
+    {
+      "feature": "code_churn_normalized",
+      "importance": 0.03086763434112072
+    },
+    {
+      "feature": "lines_deleted",
+      "importance": 0.02998565137386322
+    },
+    {
+      "feature": "files_modified",
+      "importance": 0.02986632101237774
+    },
+    {
+      "feature": "code_churn_ratio",
+      "importance": 0.02825019508600235
+    }
+  ]
+}

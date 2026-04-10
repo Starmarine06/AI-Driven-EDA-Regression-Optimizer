@@ -1,0 +1,13 @@
+2026-03-06 15:30:45 [AHB_Controller] TEST=test_ahb_001 FAILURES=5 ERROR: Assertion failure in handshake protocol
+2026-03-06 15:30:46 [AHB_Controller] TEST=test_ahb_002 FAILURES=5 ERROR: Assertion failure in handshake protocol
+2026-03-06 15:30:47 [AHB_Controller] TEST=test_ahb_003 FAILURES=5 ERROR: Assertion failure in handshake protocol
+2026-03-06 15:31:12 [Memory_Controller] TEST=test_mem_001 FAILURES=8 FATAL: Data corruption detected in cache write
+2026-03-06 15:31:13 [Memory_Controller] TEST=test_mem_002 FAILURES=8 FATAL: Data corruption detected in cache write
+2026-03-06 15:32:00 [Interconnect] TEST=test_interconnect_001 FAILURES=3 ERROR: Arbitration deadlock on port 3
+2026-03-06 15:33:15 [Cache_L1] TEST=test_cache_001 FAILURES=4 ERROR: Cache coherency violation
+2026-03-06 15:34:30 [ALU] TEST=test_alu_001 FAILURES=2 WARNING: Illegal state machine transition
+2026-03-06 15:35:45 [Control_Unit] TEST=test_ctrl_001 FAILURES=3 ERROR: Reset signal timeout
+2026-03-06 15:36:20 [Clock_Domain] TEST=test_clk_001 FAILURES=6 FATAL: Clock domain crossing violation
+2026-03-06 15:37:00 [Data_Path] TEST=test_dp_001 FAILURES=2 ERROR: Invalid operation detected
+2026-03-06 15:38:10 [Reset_Logic] TEST=test_rst_001 FAILURES=1 WARNING: Incomplete reset sequence
+2026-03-06 15:39:25 [Register_File] TEST=test_rf_001 FAILURES=4 ERROR: Data mismatch in read operation

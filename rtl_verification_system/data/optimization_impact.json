@@ -1,0 +1,13 @@
+{
+  "total_tests": 100,
+  "tests_run_in_optimized_mode": 30,
+  "original_regression_hours": 24,
+  "optimized_regression_hours": 7.2,
+  "time_saved_hours": 16.8,
+  "time_saved_percent": 70.0,
+  "original_cost_usd": 12.0,
+  "optimized_cost_usd": 3.6,
+  "cost_saved_usd": 8.4,
+  "cost_saved_percent": 70.0,
+  "failure_catch_rate_percent": 34.88
+}
